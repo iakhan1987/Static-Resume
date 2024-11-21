@@ -1,0 +1,95 @@
+/* General Settings */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header.personal-info {
+    border-style:groove;
+    background-color:#88aacf;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #e0e6ed;
+    padding-bottom: 20px;
+    color: #0056b3;
+}
+
+.personal-info h1 {
+    align-items: center;
+    margin: 0;
+    font-size: 2em;
+    color:#0056b3;
+}
+
+.personal-info p {
+    margin-top: 5px;
+    color: #555;
+}
+
+.profile-pic {
+    align-: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Section Headings */
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    border-style:groove;
+    background-color: #88aacf;
+    font-size: 1.5em;
+    color: #0056b3;
+    border-bottom: 2px solid #e0e6ed;
+    padding-bottom: 10px;
+}
+
+/* Lists */
+ul {
+    
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+/* Toggle Button */
+button {
+    border-style:groove;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #0056b3;
+    background-color: #88aacf;
+    /* border: none;
+    border-radius: 5px; */
+    cursor: pointer;
+    border-bottom: 2px solid #e0e6ed;
+}
+
+button:hover {
+    background-color: #003e7d;
+}
